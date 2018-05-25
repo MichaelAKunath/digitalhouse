@@ -1,0 +1,58 @@
+
+GIT I Arquivos(pastas)      I Arquivos(pastas)  I                       I
+    I a serem monitorados   I Ignorados         I Trabalhar em conjunto I commit
+    --------------------------------------------------------------------------------------
+    I  Index.html           I *.tmp             I Quem fez              I
+    I  styles.css           I logo.txt          I Quando fez            I Apenas o
+    I                       I                   I o que fez             I que foi testado
+
+Como trabalhar com o GIT a partir do zero.
+
+Iniciar um repositório
+Adicionar arquivos
+Trabalhar em conjunto
+
+Github
+   I
+   I---- Conta
+   I---- SSH
+   I---- Repositório
+
+Virtualbox.com
+
+github.com repositório do programador. conta gratuita --  todos os repositórios tem que ser públicos
+                                       conta privada  --  paga e você compartilha os repositórios apenas com quem você quiser
+
+bitbucket.com repositório privado gratis.
+
+
+                                                     
+                                                    Merge    
+                                 /I-----------I--I----I\      Branch secundário para desenvolvimento em paralelo
+I---I--I-------I---I-------I---II---------I-----------I-\-----I   Branch principal
+
+builtwith.com para pesquisar com que tecnologia um site foi feito.
+
+I-------------I        I-------------I          
+I             I        I             I         
+I  Pc.Casa    I        I Git Hub     I 
+I             I        I             I
+I-------------I        I-------------I
+                             ^
+Index.html               I   I
+-ADD                     I   I  
+-COMMIT                  I   I
+-PULL <------------------I   I 
+-PUSH -----------------------I
+
+gitscm.com para instalar o GIT
+
+comados para gerar a chave
+ ssh-keygen -t rsa -b 4096 -C "mkunath@pelicantextil.com.br"
+ cat ~/.ssh/id_rsa.pub
+
+comandos para trabalhar com os arquivos
+git add     adiciona arquivo a git
+git status  mostra se os arquivo estão no git
+git commit -m "texto" sobe o arquivo no git
+git push    sobe o arquivo no site do GIT

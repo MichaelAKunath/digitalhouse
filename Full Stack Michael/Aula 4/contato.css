@@ -1,0 +1,9 @@
+body{
+  font-family: arial;
+}
+h1{
+  color: #000015;
+  text-align: center;
+}
+input{text-decoration: underline;}
+input:focus {background-color: #bd8a11;} 

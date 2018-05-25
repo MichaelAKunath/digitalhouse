@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="pt" dir="ltr">
+
+  <head>
+    <meta charset="utf-8">
+    <link rel="stylesheet" href="contato.css">
+    <title>Formulário</title>
+  </head>
+  <body>
+   <h1>Formulário de contato</h1>
+    <form>
+      <label>Nome <nbsp> : </label>
+      <input type="text" name="Nome" placeholder="digite seu nome" required>
+      <br>
+      <label>E-Mail</label>
+      <input type="email" name="Email" placeholder="digite seu email" required>
+      <label>Mensagem</label>
+      <label>Genero</label>
+      <input type="radio" name="Genero" value = "Masulino">Masculino
+      <input type="radio" name="Genero" value = "Feminino">Feminino
+      <label>Mensagem</label>
+      <Select name="Assunto">
+        <option value="Palestras">Palestras</option>
+        <option value="Entrevista">Entrevista</option>
+        <option value="Evento">Evento</option>
+        <option value="Outros">Outros</option>
+      <label>Passatempos</label>
+      <label>
+        <input type="checkbox" name="Passatempo">Violão
+      </label>
+      <label>
+        <input type="checkbox" name="Passatempo">Guitarra
+      </label>
+      <label>
+        <input type="checkbox" name="Passatempo">Bateria
+      </label>
+      <textarea name="Comentarios" required></textarea>
+        <button type="reset">Limpar</button>
+        <button type="submit">Enviar</button>
+    </form>
+  </body>
+</html>

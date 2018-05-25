@@ -1,0 +1,30 @@
+h1 {font-size: 60Px;}
+.div {display:inline-block;
+position: relative;}
+.desc {position: absolute;
+        right: 40Px;
+        bottom:180Px;}
+.eletr {font-size:30Px;
+  background-color: #f10c17;
+  display: inline-block;
+  width:350Px;
+  padding:10px;
+  margin: 10px;
+  font-style: none;
+  text-align: center;
+  text-decoration: none;
+  color:white;
+   }
+header{position: fixed;
+       top: 0Px;
+      background-color: white;
+      z-index:1}
+.txtprd{font-size: 40Px;
+        position: absolute;
+        background-color: #f10c17;
+        right: 125Px;
+        bottom:20Px;
+        text-decoration: none; }
+.cnttexto{
+  
+}
